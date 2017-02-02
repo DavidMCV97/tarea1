@@ -2,15 +2,16 @@
 <html>
 	<head>
 		<title>Diseño web</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
 	<body>
 
-		<h1>¿Como crear una página web?</h1>
+		<h1 title='Guia "rapida" para aprender'>¿Como crear una página web?</h1>
 		<h2>Paso 1:</h2>
 			<p>Descargar Git, Sublime y crear una cuenta en Github</p>
 		<h2>Paso 2:</h2>
 			<p>Desde tu perfil en github, crea un nuevo repositorio con README y licencia GNU</p>
-		<h2>Paso 3:</h2>
+		<h2 id = "paso3">Paso 3:</h2>
 			<p>Desde gitbash, clona a la PC el repositorio ingresando estos comandos:</p>
 			<p>cd desktop</p>
 			<p>git clone + direccion web</p>
@@ -18,10 +19,31 @@
 		<h2>paso 4:</h2>
 			<p>Con Sublime crea la base de tu proyecto, si no sabes hacer esto, puedes copiar la basica desde este sitio:</p>
 			<a href="http://www.w3schools.com">w3schools</a>
+			<img src="imagen1.png">
 		<h2>paso 5:</h2>
 			<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
 			<p>git add .</p>
 			<p>git status (nota: debe salir el nombre del archivo .html en verde)</p>
 			<p>git push</p>
+		<hr>
+		<h1>Atributos de HTML</h1>
+			<p>Los atributos son información adicional que le puedes dar a los elementos de tu página, aquí hay algunos ejemplos.</p>
+		<h2>Titulos y parrafos</h2>
+			<p>los titulos se escriben con la letra h y un número del 1 al 5 que refiere al tamaño del mismo (1 mayor, 5 menor).</p>
+			<p>los parrafos se escriben con la letra p y tienen un solo tamaño.</p>
+			<h3>ejemplo de titulo:</h3>
+				<p>&lt h1>soy un titulo&lt/h1&gt </p>
+			<h3>ejemplo de parrafo:</h3>
+			<p>&ltp>soy un parrafo&ltp&gt</p>
+		<h2>Notas de texto (tooltip)</h2>
+			<p>Se pueden poner notas sobre palabras que aparecerán cuando se sitúe el mouse sobre la palabra:</p>
+			<p>&ltp title="soy la nota"&gtla nota se pondrá sobre mi&ltp&gt</p>
+		<h2>Imagenes</h2>
+			<p>para insertar una imagen se requiere guardar la imagen en tu repositorio y poner el siguiente código:</p>
+			<p>&ltimg src="nombre_de_la_imagen.jpg"&gt</p>
+		<h2>hipervinculos</h2>
+			<p>un hipervinculo envía al usuario a una dirección web especificada cuando se selecciona. Se escribe con la letra a y vuelve de color azul el texto. Aquí un ejemplo:</p>
+			<p>&lta href = "www.direccionweb.com"&gt</p>
+
 	</body>
 </html>
