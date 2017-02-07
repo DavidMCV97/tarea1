@@ -4,15 +4,22 @@ header {
 	background-color: black;
 	padding: 30px;
 	font-family: arial;
+	height: 20%;
 }
 nav {
-	float: left;
-	display: block;
 	padding: 20px;
 	display: block;
-	width: 100px;
+	width: 10%;
+	background-color: black;
+	height: 80%;
 }
 a {
 	text-decoration: none;
 	color: red;
+}
+body {
+	margin: 0;
+}
+main {
+	width: 80%
 }
