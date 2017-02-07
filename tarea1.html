@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Diseño web</title>
+		<title>Tarea</title>
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
-	<body>
 
-		<h1 title='Guia "rapida" para aprender'>¿Como crear una página web?</h1>
-		<h2>Paso 1:</h2>
-			<p>Descargar Git, Sublime y crear una cuenta en Github</p>
-		<h2>Paso 2:</h2>
-			<p>Desde tu perfil en github, crea un nuevo repositorio con README y licencia GNU</p>
-		<h2 id = "paso3">Paso 3:</h2>
-			<p>Desde gitbash, clona a la PC el repositorio ingresando estos comandos:</p>
-			<p>cd desktop</p>
-			<p>git clone + direccion web</p>
-			<p>Nota: la direccion web la obtienes en el repositorio en github</p>
-		<h2>paso 4:</h2>
-			<p>Con Sublime crea la base de tu proyecto, si no sabes hacer esto, puedes copiar la basica desde este sitio:</p>
-			<a href="http://www.w3schools.com">w3schools</a>
-			<img src="imagen1.png">
-		<h2>paso 5:</h2>
-			<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
-			<p>git add .</p>
-			<p>git status (nota: debe salir el nombre del archivo .html en verde)</p>
-			<p>git push</p>
-		<hr>
-		<h1>Atributos de HTML</h1>
+	<body>
+	<header>
+		<h1>¿Cómo crear una página web?</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#link1">Base de un sitio</a></li>
+			<li><a href="#link2">Algunos Atributos</a></li>
+		</ul>
+		
+		
+	</nav>
+			<p>En este sitio aprenderas como crear la base para un sitio web.</p>
+			<h2 id="link1">Paso 1:</h2>
+				<p>Descargar 
+				<a href="https://git-scm.com/" target="_blank">Git</a>, 
+				<a href="https://www.sublimetext.com/3">Sublime</a> 
+				y crear una cuenta en 
+				<a href="https://github.com/">Github</a>.
+				</p>
+			<h2>Paso 2:</h2>
+				<p>Desde tu perfil en Github, crea un nuevo repositorio con README y licencia GNU</p>
+			<h2>Paso 3:</h2>
+				<p>Desde gitbash, clona a la PC el repositorio ingresando estos comandos:</p>
+				<ol type="1">
+					<li>cd desktop</li>
+					<li>git clone + direccion web</li>
+				</ol>
+				
+				<p><p>Nota</p>: la direccion web la obtienes en el repositorio en github</p>
+			<h2>paso 4:</h2>
+				<p>Con Sublime crea la base de tu proyecto, si no sabes hacer esto, puedes copiar la basica desde este sitio: 
+				<a href="http://www.w3schools.com">w3schools</a>.</p>
+				<br>
+				<img src="imagen1.png">
+			<h2>paso 5:</h2>
+				<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
+				<ol>
+					<li>git add .</li>
+					<li>git status (nota: debe salir el nombre del archivo .html en verde)</li>
+					<li>git push</li>
+				</ol>
+		<h1 id= "link2">Atributos de HTML</h1>
 			<p>Los atributos son información adicional que le puedes dar a los elementos de tu página, aquí hay algunos ejemplos.</p>
 		<h2>Titulos y parrafos</h2>
-			<p>los titulos se escriben con la letra h y un número del 1 al 5 que refiere al tamaño del mismo (1 mayor, 5 menor).</p>
-			<p>los parrafos se escriben con la letra p y tienen un solo tamaño.</p>
+			<p>los titulos se escriben con la letra h y un número. El número refiere a la prioridad del titulo (1 = máxima prioridad, 6 = mínima prioridad). Los parrafos por otro lado se escriben con la letra p y tienen un solo tamaño.</p>
 			<h3>ejemplo de titulo:</h3>
-				<p>&lt h1>soy un titulo&lt/h1&gt </p>
+			<p>&lt h1>soy un titulo&lt/h1&gt </p>
 			<h3>ejemplo de parrafo:</h3>
 			<p>&ltp>soy un parrafo&ltp&gt</p>
 		<h2>Notas de texto (tooltip)</h2>
@@ -42,7 +63,7 @@
 			<p>para insertar una imagen se requiere guardar la imagen en tu repositorio y poner el siguiente código:</p>
 			<p>&ltimg src="nombre_de_la_imagen.jpg"&gt</p>
 		<h2>hipervinculos</h2>
-			<p>un hipervinculo envía al usuario a una dirección web especificada cuando se selecciona. Se escribe con la letra a y vuelve de color azul el texto. Aquí un ejemplo:</p>
+			<p>un hipervinculo envía al usuario a una dirección web especificada cuando se selecciona. Se escribe con la letra a y tiene un formato azul predeterminado. Aquí un ejemplo:</p>
 			<p>&lta href = "www.direccionweb.com"&gt</p>
 
 	</body>

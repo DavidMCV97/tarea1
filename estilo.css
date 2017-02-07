@@ -1,7 +1,18 @@
-body {
-    background-color: lightblue;
+header {
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 30px;
+	font-family: arial;
 }
-#paso3{
-	background-color: red;
-	padding-right: 0;
+nav {
+	float: left;
+	display: block;
+	padding: 20px;
+	display: block;
+	width: 100px;
+}
+a {
+	text-decoration: none;
+	color: red;
 }
