@@ -1,16 +1,15 @@
 body {
 	margin: 0;
-	padding: 0;
 }
 #cuadro1 {
-	background-color: red;
+	background-color: blue;
 	width: 100%;
-	padding-bottom: 25%;
-	height: 0;
-	margin: 0;
+	padding-top: 12.5%;
+	padding-bottom: 12.5%;
 }
 #cuadro2 {
-	background-color: blue;
-	width: 100;
-	padding-bottom: 25%;
+	background-color: red;
+	width: 100%;
+	padding-top: 12.5%;
+	padding-bottom: 12.5%;
 }

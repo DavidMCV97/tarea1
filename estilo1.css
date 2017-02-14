@@ -23,3 +23,6 @@ body {
 main {
 	width: 80%
 }
+ul.li{
+	background-color: yellow;
+}

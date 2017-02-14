@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+}
+#caja1 {
+	margin: 0;
+	padding: 0;
+	background-color: green;
+	width: 50%;
+	float: left;
+	padding-bottom: 12.5%;
+	padding-top: 12.5%;
+}
+#caja2 {
+	padding: 0;
+	width: 50%;
+	background-color: blue;
+	float: right;
+	padding-bottom: 12.5%;
+	padding-top: 12.5%;
+}
+#caja3 {
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+	width: 50%;
+	float: left;
+	padding-bottom: 12.5%;
+	padding-top: 12.5%;
+}
+#caja4 {
+	padding: 0;
+	width: 50%;
+	background-color: red;
+	float: right;
+	padding-bottom: 12.5%;
+	padding-top: 12.5%;
+}

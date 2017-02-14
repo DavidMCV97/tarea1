@@ -1,10 +1,25 @@
 div {
 	background-color: black;
-	width: 100px;
-	height: 100px;
-	margin: 10%;
-	border-style: solid;
-	border-width: 20px;
-	border-color: yellow;
-	padding: 10px;
+	border-width: 100%;
+	width: 500px;
+	height: 500px;
+	padding: 50px;
+}
+#in1 {
+	background-color: red;
+	width: 400px;
+	height: 400px;
+	padding: 50px;
+}
+#in2 {
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	padding: 50px;
+}
+#in3 {
+	background-color: green;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
 }
