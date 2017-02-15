@@ -1,0 +1,62 @@
+body{
+	background-color: blue;
+	margin: 0;
+}
+#d14{
+	background-color: rgb(255, 0, 0);
+	width: 20%;
+	padding-top: 20%;
+	margin: 2.5%;
+	float: right;
+}
+#d13{
+	background-color: rgb(255, 50, 50);
+	width: 15%;
+	padding-top: 15%;
+	margin: 5%;
+	float: right;
+}
+#d12{
+	background-color: rgb(255, 100, 100);
+	width: 10%;
+	padding-top: 10%;
+	margin: 7.5%;
+	float: right;
+}
+#d11{
+	background-color: rgb(255, 150, 150);
+	width: 5%;
+	padding-top: 5%;
+	margin: 10%;
+	float: right;
+}
+										/*final de la primer fila*/
+#d24{
+	margin-top: 10px;
+	background-color: rgb(255, 150, 150);
+	width: 5%;
+	padding-top: 5%;
+	margin: 10%;
+	float: right;
+}
+#d23{
+	background-color: rgb(255, 100, 100);
+	width: 10%;
+	padding-top: 10%;
+	margin: 7.5%;
+	float: right;
+}
+#d22{
+	background-color: rgb(255, 50, 50);
+	width: 15%;
+	padding-top: 15%;
+	margin: 5%;
+	float: right;
+}
+#d21{
+	background-color: rgb(255, 0, 0);
+	width: 20%;
+	padding-top: 20%;
+	margin: 2.5%;
+	float: right;
+}
