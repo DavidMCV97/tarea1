@@ -8,27 +8,29 @@ header {
 	color: white;
 
 	background-color: black;
-	padding: 30px;
+	padding-left: 2000px;
 	width: 80%;
 	float: right;
-	margin-left: 20%;
 }
 nav {
 	margin: 0;
 	background-color: black;
-	width: 20%;
-	height: 1000px;
+	height: 3000px;
 	position: fixed;
 	clear: top;
+	width: 140px;
 }
 main {
-	margin-left: 300px;
-	width: 80%;
+	text-align: left;
+	border-left: solid;
+	margin-left: 140px;
+	padding-left: 20px;
 	float: right;
 }
 fieldset {
 	margin: 10%;
 	margin-top: 0;
+	margin-right: : 300px;
 	border-style: dotted;
 	border-color: red;
 }
@@ -42,4 +44,35 @@ a {
 }
 li {
 	padding: 5px;
+}
+
+@media screen and (max-width: 1000px){
+	nav {
+		display: none;
+	}
+	main {
+		margin-left: 0;
+	}
+	header{
+		margin-left: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+	li {
+		padding-top: 30px;
+	}
+}
+
+@media screen and (max-height:1000px) and (min-width: 100px){
+	nav {
+		height: 1440px;
+		background-color: yellow;
+	}
+}
+
+@media screen and (max-height:426px){
+	nav {
+		height: 426px;
+		background-color: yellow;
+	}
 }
