@@ -5,90 +5,103 @@
 	<link rel="stylesheet" type="text/css" href="css/estilo1.css">
 </head>
 
-<body>
 
+<body>
 	<header>
-		<h1>¿Cómo crear una página web?</h1>
+		<h1>Guía para crear una página web</h1>
 	</header>
 
 	<nav>
-		<ul id="listaLinks">
+		<ul id="listaNav">
 			<li><a href="#link1">Base de un sitio</a></li>
 			<li><a href="#link2">Algunos Atributos</a></li>
 			<li><a href="#link3">ejemplos</a></li>
 			<li><a href="#link4">Formato</a></li>
 		</ul>
-		
-		
 	</nav>
 
 	<main>
-		<p>En este sitio aprenderas como crear la base para un sitio web.</p>
-		<h2 id="link1">Paso 1:</h2>
-		<p>Descargar 
-			<a href="https://git-scm.com/" target="_blank">Git</a>, 
-			<a href="https://www.sublimetext.com/3" target="_blank">Sublime</a> 
-			y crear una cuenta en  
-			<a href="https://github.com/" target="_blank">Github</a>.
-		</p>
-		<h2>Paso 2:</h2>
-		<p>Desde tu perfil en Github, crea un nuevo repositorio con README y licencia GNU</p>
-		<h2>Paso 3:</h2>
-		<p>Desde gitbash, clona a la PC el repositorio ingresando estos comandos:</p>
-		<ol type="1">
-			<li>cd desktop</li>
-			<li>git clone + direccion web</li>
+		<p>En este sitio web aprenderas a crear un sitio web. Para ello, te enseñaremos a utilizar los lenguajes HyperText Markup Language (HTML), Cascading Style Sheets (CSS) y JavaScript (js), así como a crear repositorios en linea de tu progreso. </p>
+		<h2 id="link1">Lo Básico</h2>
+		<p>Lo primero que tendrás que hacer es conseguir las herramientas necesarias. Lo que necesitas hacer es:</p>
+		<ul>
+			<li>Crear una cuenta en <a href="https://github.com/" target="_blank">Github</a> para usar los repositorios</li>
+			<li>Descargar <a href="https://git-scm.com/" target="_blank">Git</a> para actualizar los repositorios</li>
+			<li>Descargar <a href="https://www.sublimetext.com/3" target="_blank">Sublime</a> para usar los lenguajes</li> 
+		</ul>
+		<p>Y estarás listo para comenzar. A continuación te damos los pasos que recomendamos para crear tus proyectos.</p>
+		<div style="padding-bottom: 60px;">
+			<h3>Paso 1: Creacion del repositorio</h3>
+			<img src="img/repositorio.png" style="float: right;">
+			<ol style="margin-top: 70px;">
+				<li>Entra a tu perfil en Github</li>
+				<li>Selecciona el botón "Start a project"</li>
+				<li>Agrega un nombre y descripción claros y adecuados</li>
+				<li>Selecciona la opción "Public"</li>
+				<li>Selecciona la opcion "Initialize this repository with README"</li>
+				<li>Agrega una licencia GNU</li>
+				<li>Presiona crear</li>
+			</ol>
+		</div>
+		<h3>Paso 2: Clonación del repositorio</h3>
+		<ol>
+			<li>Entra a GitBash</li>
+			<li>Ingresa los siguientes comandos</li>
+			<ol type="i">
+				<li>cd desktop</li>
+				<li>git clone + direccion web</li>
+			</ol>
 		</ol>
 		<p>Nota: la direccion web la obtienes en el repositorio en github</p>
 		<h2>paso 4:</h2>
 		<p>Con Sublime crea la base de tu proyecto, si no sabes hacer esto, puedes copiar la basica desde este sitio: 
-		<a href="http://www.w3schools.com" target="_blank">w3schools</a>.</p>
-		<br>
-		<img src="img/imagen1.png">
-		<h2>paso 5:</h2>
-		<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
-		<ol>
-			<li>git add .</li>
-			<li>git status (nota: debe salir el nombre del archivo .html en verde)</li>
-			<li>git push</li>
-		</ol>
-		<h1 id= "link2">Atributos de HTML</h1>
-		<p>Los atributos son información adicional que le puedes dar a los elementos de tu página, aquí hay algunos ejemplos.</p>
-		<h2>Titulos y parrafos</h2>
-		<p>los titulos se escriben con la letra h y un número. El número refiere a la prioridad del titulo (1 = máxima prioridad, 6 = mínima prioridad). Los parrafos por otro lado se escriben con la letra p y tienen un solo tamaño.</p>
-		<h3>ejemplo de titulo:</h3>
-		<p>&lt h1>soy un titulo&lt/h1&gt </p>
-		<h3>ejemplo de parrafo:</h3>
-		<p>&ltp>soy un parrafo&ltp&gt</p>
-		<h2>Notas de texto (tooltip)</h2>
-		<p>Se pueden poner notas sobre palabras que aparecerán cuando se sitúe el mouse sobre la palabra:</p>
-		<p>&ltp title="soy la nota"&gtla nota se pondrá sobre mi&ltp&gt</p>
-		<h2>Imagenes</h2>
-		<p>para insertar una imagen se requiere guardar la imagen en tu repositorio y poner el siguiente código:</p>
-		<p>&ltimg src="nombre_de_la_imagen.jpg"&gt</p>
-		<h2>hipervinculos</h2>
-		<p>un hipervinculo envía al usuario a una dirección web especificada cuando se selecciona. Se escribe con la letra a y tiene un formato azul predeterminado. Aquí un ejemplo:</p>
-		<p>&lta href = "www.direccionweb.com"&gt</p>
-		<h2 id="link3">Ejemplos</h2>
-		<ul>
-			<li><a href="html/cajas.html" target="_blank">Cajas</a></li>
-			<li><a href="html/dosCuadros.html" target="_blank">Dos cuadros</a></li>
-			<li><a href="html/cuatroCajas.html" target="_blank">Cuatro cuadros</a></li>
-			<li><a href="html/barras.html" target="_blank">Barras de colores</a></li>
-			<li><a href="html/tablero.html" target="_blank">Tablero</a></li>
-			<li><a href="html/cuadrosDistanciados.html" target="_blank">Cuadros Distanciados</a></li>
-		</ul>
-		<h2 id="link4">Formato</h2>
-		<fieldset>
-			<legend>formulario</legend>
-			<p>nombre:</p>
-			<input type="text" name="nombre">
-			<p>clave:</p>
-			<input type="text" name="clave">
+			<a href="http://www.w3schools.com" target="_blank">w3schools</a>.</p>
 			<br>
-			<br>
-			<button id="boton">Acceder</button>
-		</fieldset>
+			<img src="img/imagen1.png">
+			<h2>paso 5:</h2>
+			<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
+			<ol>
+				<li>git add .</li>
+				<li>git status (nota: debe salir el nombre del archivo .html en verde)</li>
+				<li>git push</li>
+			</ol>
+			<h1 id= "link2">Atributos de HTML</h1>
+			<p>Los atributos son información adicional que le puedes dar a los elementos de tu página, aquí hay algunos ejemplos.</p>
+			<h2>Titulos y parrafos</h2>
+			<p>los titulos se escriben con la letra h y un número. El número refiere a la prioridad del titulo (1 = máxima prioridad, 6 = mínima prioridad). Los parrafos por otro lado se escriben con la letra p y tienen un solo tamaño.</p>
+			<h3>ejemplo de titulo:</h3>
+			<p>&lt h1>soy un titulo&lt/h1&gt </p>
+			<h3>ejemplo de parrafo:</h3>
+			<p>&ltp>soy un parrafo&ltp&gt</p>
+			<h2>Notas de texto (tooltip)</h2>
+			<p>Se pueden poner notas sobre palabras que aparecerán cuando se sitúe el mouse sobre la palabra:</p>
+			<p>&ltp title="soy la nota"&gtla nota se pondrá sobre mi&ltp&gt</p>
+			<h2>Imagenes</h2>
+			<p>para insertar una imagen se requiere guardar la imagen en tu repositorio y poner el siguiente código:</p>
+			<p>&ltimg src="nombre_de_la_imagen.jpg"&gt</p>
+			<h2>hipervinculos</h2>
+			<p>un hipervinculo envía al usuario a una dirección web especificada cuando se selecciona. Se escribe con la letra a y tiene un formato azul predeterminado. Aquí un ejemplo:</p>
+			<p>&lta href = "www.direccionweb.com"&gt</p>
+			<h2 id="link3">Ejemplos</h2>
+			<ul>
+				<li><a href="html/cajas.html" target="_blank">Cajas</a></li>
+				<li><a href="html/dosCuadros.html" target="_blank">Dos cuadros</a></li>
+				<li><a href="html/cuatroCajas.html" target="_blank">Cuatro cuadros</a></li>
+				<li><a href="html/barras.html" target="_blank">Barras de colores</a></li>
+				<li><a href="html/tablero.html" target="_blank">Tablero</a></li>
+				<li><a href="html/cuadrosDistanciados.html" target="_blank">Cuadros Distanciados</a></li>
+			</ul>
+			<h2 id="link4">Formato</h2>
+			<fieldset>
+				<legend>formulario</legend>
+				<p>nombre:</p>
+				<input type="text" name="nombre">
+				<p>clave:</p>
+				<input type="text" name="clave">
+				<br>
+				<br>
+				<button id="boton">Acceder</button>
+			</fieldset>
 		</main>
-</body>
-</html>
+	</body>
+	</html>

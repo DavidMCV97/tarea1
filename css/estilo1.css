@@ -1,10 +1,11 @@
 body {
 	margin: 0;
-	padding: 0;
+	font-size: 130%;
 }
 header {
 	text-align: center;
 	font-family: arial;
+	font-size: 120%;
 	color: white;
 
 	background-color: black;
@@ -17,16 +18,17 @@ nav {
 	background-color: black;
 	height: 3000px;
 	position: fixed;
-	clear: top;
 	width: 140px;
 }
 main {
 	text-align: left;
 	border-left: solid;
 	margin-left: 140px;
-	padding-left: 20px;
+	padding: 80px;
+	padding-top: 0;
 	float: right;
 }
+												/*Secunadarios*/
 fieldset {
 	margin: 10%;
 	margin-top: 0;
@@ -38,41 +40,12 @@ a {
 	text-decoration: none;
 	color: red;
 }
-#listaLinks {
-	margin-top: 250px;
-	text-decoration: underline;
 }
 li {
 	padding: 5px;
 }
-
-@media screen and (max-width: 1000px){
-	nav {
-		display: none;
-	}
-	main {
-		margin-left: 0;
-	}
-	header{
-		margin-left: 0;
-		padding-left: 0;
-		width: 100%;
-	}
-	li {
-		padding-top: 30px;
-	}
-}
-
-@media screen and (max-height:1000px) and (min-width: 100px){
-	nav {
-		height: 1440px;
-		background-color: yellow;
-	}
-}
-
-@media screen and (max-height:426px){
-	nav {
-		height: 426px;
-		background-color: yellow;
-	}
+												/* id's */
+#listaNav {
+	margin-top: 250px;
+	text-decoration: underline;
 }
