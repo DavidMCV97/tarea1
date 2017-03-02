@@ -45,7 +45,13 @@ li {
 	padding: 5px;
 }
 												/* id's */
-#listaNav {
-	margin-top: 250px;
-	text-decoration: underline;
-}
+ button.nav{
+ 	background-color: green;
+ 	width: 100px;
+ 	height: 50px;
+
+ 	padding-bottom: 40px;
+ 	border: none;
+
+ 	text-decoration-color: white;
+ }

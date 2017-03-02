@@ -12,11 +12,11 @@
 	</header>
 
 	<nav>
-		<ul id="listaNav">
-			<li><a href="#link1">Base de un sitio</a></li>
-			<li><a href="#link2">Algunos Atributos</a></li>
-			<li><a href="#link3">ejemplos</a></li>
-			<li><a href="#link4">Formato</a></li>
+		<ul style="padding-top: 70%">
+			<li><button class="nav"><a href="#link1">Base de un sitio</a></button</li>
+			<li><button class="nav"><a href="#link2">Algunos Atributos</a></button</li>
+			<li><button class="nav"><a href="#link3">ejemplos</a></button</li>
+			<li><button class="nav"><a href="#link4">Formato</a></button</li>
 		</ul>
 	</nav>
 
@@ -46,26 +46,47 @@
 		<h3>Paso 2: Clonación del repositorio</h3>
 		<ol>
 			<li>Entra a GitBash</li>
-			<li>Ingresa los siguientes comandos</li>
+			<li>Ingresa los siguientes comandos:</li>
 			<ol type="i">
 				<li>cd desktop</li>
-				<li>git clone + direccion web</li>
+				<li>git clone *direccion web*</li>
 			</ol>
 		</ol>
-		<p>Nota: la direccion web la obtienes en el repositorio en github</p>
-		<h2>paso 4:</h2>
-		<p>Con Sublime crea la base de tu proyecto, si no sabes hacer esto, puedes copiar la basica desde este sitio: 
-			<a href="http://www.w3schools.com" target="_blank">w3schools</a>.</p>
-			<br>
-			<img src="img/imagen1.png">
-			<h2>paso 5:</h2>
-			<p>guarda el archivo en github como un borrador de tu sitio, siguiendo estos comandos en gitBash:</p>
+		<p>La direccion web la obtienes en github: entra al repositorio, presiona el botón verde "Clone or download" y copia la dirección que aparece</p>
+		<h3>paso 3: Creación del index</h3>
+		<p>Ahora usaremos Sublime para crear nuestro primer archivo HTML:</p>
+		<img src="img/imagen1.png" style="float: right;">
+		<ol>
+			<li>Abre Sublime en tu computadora</li>
+			<li>Presiona el botón file en la esquina superior derecha</li>
+			<li>selecciona "New file"</li>
+			<li>En la pestaña que apareció, presiona *ctrl + s*</li>
+			<li>guarda el archivo con el nombre "index.html"</li>
+			<li>copia literalmente el código de la imagen de la derecha</li>
+		</ol>
+		Lo que acabas de hacer es crear tu primer página web. La puedes ver abriendo el archivo index con un buscador.
+			
+			<h3>paso 4: Actualización del repositorio</h3>
+			<p>Una vez creada y cada vez que se actualice tu página, deberás guardar los avances en gitbash para no perder nada. Aquí los pasos:</p>
 			<ol>
-				<li>git add .</li>
-				<li>git status (nota: debe salir el nombre del archivo .html en verde)</li>
-				<li>git push</li>
+				<li>Entra desde tu coputador a GitBash</li>
+				<li>En el cuadro negro que aparece, ingresa los siguientes comandos:</li>
+				<ol type="i">
+					<li>cd desktop</li>
+					<li>cd *nombre de la carpeta*</li>
+					<li>git status</li>
+					<p>Nota: Aquí deberán aparecer los nombres de los archivos que componen la carpeta en rojo</p>
+					<li>git add .</li>
+					<li>git status</li>
+					<p>Nota(2): ahora deberán aparecer los mismos pero en verde</p>
+					<li>git commit -m "Escribe aquí un pequeño resumen de qué haciste"</li>
+					<li>git push</li>
+				</ol>
 			</ol>
-			<h1 id= "link2">Atributos de HTML</h1>
+			<p>La primera vez que realices el git push te pedirá que ingreses a tu cuenta de GitTube, esto es por seguridad y solo ocurre la primera vez.</p>
+			<br>
+			<p>Estos son los pasos mínimos para crear un sitio web de cero. A partir de ahora te enseñaremos a darle contenido y estilo.</p>
+			<h2 id= "link2">Atributos de HTML</h2>
 			<p>Los atributos son información adicional que le puedes dar a los elementos de tu página, aquí hay algunos ejemplos.</p>
 			<h2>Titulos y parrafos</h2>
 			<p>los titulos se escriben con la letra h y un número. El número refiere a la prioridad del titulo (1 = máxima prioridad, 6 = mínima prioridad). Los parrafos por otro lado se escriben con la letra p y tienen un solo tamaño.</p>
