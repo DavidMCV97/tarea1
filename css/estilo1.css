@@ -52,6 +52,8 @@ li {
 
  	padding-bottom: 40px;
  	border: none;
-
- 	text-decoration-color: white;
+ 	text-align: center;
+ 	margin-top: 10px;
+ 	padding-top: 13px;
+ 	outline: none;
  }
