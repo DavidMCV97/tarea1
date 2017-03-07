@@ -1,9 +1,14 @@
+body{
+	background-image: url("../img/mosaico.jpg");
+}
 div {
-	margin: 100px;
 	border-style: solid;
 	border-color: black;
 	width: 20%;
-	padding: 20px;
+	padding: 10px;
+	margin-left: 40%;
+	margin-top: 50px;
+	background-color: white;
 }
 button {
 	margin: 10px;

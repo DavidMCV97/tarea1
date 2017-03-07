@@ -1,0 +1,337 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"num",
+				"num1"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-decoration-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"PADD",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"d",
+				"dotted"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"link",
+				"link1"
+			],
+			[
+				"borders",
+				"border-style"
+			],
+			[
+				"borderc",
+				"border-color"
+			],
+			[
+				"backgrounDC",
+				"background-color"
+			],
+			[
+				"BO",
+				"border"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"texta",
+				"text-align"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Usuario/Desktop/tarea1/css/calculadora.css",
+		"/C/Users/Usuario/Desktop/tarea1/index.html",
+		"/C/Users/Usuario/Desktop/tarea1/js/index.js",
+		"/C/Users/Usuario/Desktop/tarea1/css/estilo1.css",
+		"/C/Users/Usuario/Desktop/tarea1/css/index.js",
+		"/C/Users/Usuario/Desktop/tarea1/css/estiloCuadrosDistanciados.css",
+		"/C/Users/Usuario/Desktop/tarea1/html/cuadrosDistanciados.html",
+		"/C/Users/Usuario/Desktop/tarea1/css/estiloTablero.css",
+		"/C/Users/Usuario/Desktop/tarea1/html/tablero.html",
+		"/C/Users/Usuario/Desktop/tarea1/css/estiloCuadrosDist",
+		"/C/Users/Usuario/Desktop/tarea1/css/estiloBarras.css",
+		"/C/Users/Usuario/Desktop/tarea1/html/cuatroCajas.html",
+		"/C/Users/Usuario/Desktop/tarea1/tablero1.html",
+		"/C/Users/Usuario/Desktop/tarea1/html/barras.html",
+		"/C/Users/Usuario/Desktop/tarea1/css/estiloBarras",
+		"/C/Users/Usuario/Desktop/tarea1/index.html.html",
+		"/C/Users/Usuario/Desktop/tarea1/html/dosCuadros.html",
+		"/C/Users/Usuario/Desktop/tarea1/html/cajas.html",
+		"/C/Users/Usuario/Desktop/tarea1/estiloCuatroCajas.css",
+		"/C/Users/Usuario/Desktop/tarea1/cuatroCajas.html",
+		"/C/Users/Usuario/Desktop/tarea1/estilo1.css",
+		"/C/Users/Usuario/Desktop/tarea1/tarea1.html",
+		"/C/Users/Usuario/Desktop/tarea1/estilo3.css",
+		"/C/Users/Usuario/Desktop/tarea1/cajas.html",
+		"/C/Users/Usuario/Desktop/tarea1/estilo2.css",
+		"/C/Users/Usuario/Desktop/tarea1/dosCuadros.html",
+		"/C/Users/Usuario/Desktop/tarea1/estiloCuatroCajas",
+		"/C/Users/Usuario/Desktop/tarea1/estilo2",
+		"/C/Users/Usuario/Desktop/tarea1/estilo.css",
+		"/C/Users/Usuario/Desktop/proyecto1.1/sitio.html",
+		"/C/Users/Usuario/Desktop/proyecto1/proyecto.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"class",
+			"li",
+			";\n",
+			"%;\n",
+			"}\n",
+			">\n",
+			"d15",
+			";\n",
+			"</section"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "barras.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 260.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
