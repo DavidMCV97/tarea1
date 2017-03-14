@@ -1,0 +1,32 @@
+button {
+	margin-top: 20px;
+	margin-left: 43%;
+	padding:10px;
+	font-size: 200%;
+}
+img {
+	width: 200px;
+	height: 268px;
+}
+p {
+	margin: 0;
+	padding: 2px;
+	text-align: center;
+	font-size: 120%;
+}
+.externo {
+	width: 200px;
+	height: 300px;
+
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+	border-radius: 10px;
+}
+.externo:hover {
+	border-color: green;
+}
+.interno {
+	width: 200px;
+	height: 28px;
+}
