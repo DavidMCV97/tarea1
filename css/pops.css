@@ -14,6 +14,11 @@ p {
 	text-align: center;
 	font-size: 120%;
 }
+
+#cuadros {
+	width: 100%;
+	background-color: red;
+}
 .externo {
 	width: 200px;
 	height: 300px;

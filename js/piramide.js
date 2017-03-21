@@ -16,7 +16,7 @@ function comprobar()
 
 function piramide() 
 {
-	for(i = 1; i <= n; i++)
+	for(i = 1; i <= n && i <= 166; i++)
 	{
 		res = res + "<p>"
 		for (j = 0; j < i; j++)
