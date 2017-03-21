@@ -1,3 +1,6 @@
+body{
+	background-color: red;
+}
 button {
 	margin-top: 20px;
 	margin-left: 43%;
@@ -16,8 +19,8 @@ p {
 }
 
 #cuadros {
-	width: 100%;
-	background-color: red;
+	margin-top: 0;
+	min-width: 660px;
 }
 .externo {
 	width: 200px;
@@ -27,6 +30,10 @@ p {
 	border-width: 10px;
 	border-color: black;
 	border-radius: 10px;
+
+	float: right;
+
+	margin: 10px;
 }
 .externo:hover {
 	border-color: green;
@@ -34,4 +41,15 @@ p {
 .interno {
 	width: 200px;
 	height: 28px;
+}
+
+@media screen and (max-width:700px) {
+
+	.externo{
+		float: none;
+	}
+	#cuadros {
+		margin: 0;
+		margin-left: 10%;
+	}
 }
