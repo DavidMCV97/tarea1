@@ -6,21 +6,24 @@
 </head>
 
 <body>
-<header>
-	<h1>Idiomas</h1>
-	<select>
-	<option>Espanol</option>
-	<option>English</option>
-	</select>
-	<button>Aceptar</button>
-</header>
-	<div>
-		
-	</div>
-	<div class="cuadro">
-		<div class="titulo">Idioma</div>
-		<button class="cruz">x</button>
-		<div class="interno">
+
+	<header>
+		<h1>Idiomas</h1>
+		<select id="selIdio" onchange="alert('hola')">
+			<option>Espanol</option>
+			<option>English</option>
+		</select>
+		<button id="btnAceptar" onmouseover="overAcept()" onmouseout="outAcept()">Aceptar</button>
+	</header>
+
+
+
+
+
+	<div class="divExterno" id="aleatorio">
+		<div class="divTitulo">Idioma</div>
+		<button class="btnCruz" onclick="desaparece('aleatorio')">x</button>
+		<div class="divInterno">
 			Nivel:
 			<select>
 				<option>Avanzado</option>
@@ -29,6 +32,24 @@
 			</select>
 		</div>
 	</div>
+
+
+
+
 	<script type="text/javascript" src="../js/idiomas.js"></script>
+
 </body>
 </html>
+
+	<div class="divExterno" id="aleatorio">
+		<div class="divTitulo">Idioma</div>
+		<button class="btnCruz" onclick="desaparece('aleatorio')">x</button>
+		<div class="divInterno">
+			Nivel:
+			<select>
+				<option>Avanzado</option>
+				<option>Intermedio</option>
+				<option>Principiante</option>
+			</select>
+		</div>
+	</div>

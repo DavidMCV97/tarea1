@@ -1,20 +1,65 @@
 body{
 	font: verdana;
+	margin: 0;
 }
 header{
-	background-color: red;
+	font-size: 140%;
+	background-color: yellow;
+	margin: 0;
+
+	height: 60px;
 }
-.cuadro {
+h1 {
+	margin: 0;
+	margin-left: 100px;
+	padding: 3px;
+	width: 200px;
+	float: left;
+}
+
+#selIdio {
+	width: 150px;
+	height: 60px;
+	background-color: yellow;
+
+	border-style: none;
+	border-color: black;
+	margin: 0;
+	margin-right: 700px;
+
+	float: right;
+	outline: none;
+
+	font-size: 100%;
+}
+#btnAceptar {
+	outline: none;
+
+	float: right;
+	height: 60px;
+	width: 120px;
+	margin: 0;
+
+	border-style: none solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: yellow;
+
+	font-size: 100%;
+}
+
+.divExterno {
 	width: 450px;
 	height: 150px;
-	margin-left: 20%;
+	margin: 10px;
+	margin-left: 27%;
 
 	border-style: double;
 	border-width: 10px;
 	border-radius: 10%;
 	border-color: red;
 }
-.titulo{
+.divTitulo{
 	width: 50%;
 	float: left;
 	margin-top: 13px;
@@ -25,7 +70,7 @@ header{
 	padding: 0;
 	border: 0;
 }
-.cruz {
+.btnCruz {
 	float: right;
 	margin: 10px;
 	border-radius: 100%;
@@ -33,7 +78,7 @@ header{
 	margin-bottom: 30px;
 	margin-left: 50px;
 }
-.interno{
+.divInterno{
 	float: left;
 	margin: 40px;
 	margin-left: 150px;
