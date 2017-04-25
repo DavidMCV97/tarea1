@@ -11,21 +11,20 @@ header{
 }
 h1 {
 	margin: 0;
-	margin-left: 100px;
+	margin-left: 10%;
 	padding: 3px;
 	width: 200px;
 	float: left;
 }
-
 #selIdio {
-	width: 150px;
+	width: 250px;
 	height: 60px;
 	background-color: yellow;
 
 	border-style: none;
 	border-color: black;
 	margin: 0;
-	margin-right: 700px;
+	margin-right: 40%;
 
 	float: right;
 	outline: none;
@@ -48,16 +47,26 @@ h1 {
 	font-size: 100%;
 }
 
+#publish {
+	width: 100%;
+	overflow: auto;
+
+}
+
 .divExterno {
 	width: 450px;
 	height: 150px;
 	margin: 10px;
 	margin-left: 27%;
 
+	background-color: yellow;
+
 	border-style: double;
 	border-width: 10px;
 	border-radius: 10%;
-	border-color: red;
+	border-color: black;
+
+	float: left;
 }
 .divTitulo{
 	width: 50%;
